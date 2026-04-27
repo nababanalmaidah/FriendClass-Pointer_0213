@@ -24,3 +24,9 @@ void manusia::showNilaiPelajar(pelajar &x)
 
 int main()
 {
+    manusia budi;
+    pelajar pjl; // Membuat objek pelajar untuk ditampilkan nilainya
+    budi.showNilaiPelajar(pjl);
+
+    return 0;
+}

@@ -11,4 +11,14 @@ class mahasiswa{
 int main (){
     mahasiswa mhs{1}; // object mhs
     mhs.showNim
+
+    mahasiswa &refMhs = mhs; //Pointer Reference refMhs
+    refMhs.nim = 2; //Member Acces Operator
+    mhs.showNim();
+
+    mahasiswa *pMhs = &mhs; //pointer Dereference pMhs
+    pMhs->nim = 3; //Arrow Operator
+    pMhs->showNim();
+    return 0;
 }
+

@@ -12,3 +12,6 @@ public:
 };
 void setNama(mahasiswa &a, string b)
 {
+    a.nama = b;
+    cout << a.nama;
+}
